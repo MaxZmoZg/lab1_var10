@@ -1,0 +1,21 @@
+﻿<Window x:Class="lab1_var10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab1_var10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Label Content="Term" />
+        <TextBox x:Name="TermInput" />
+        <Label Content="Explanation" />
+        <TextBox x:Name="ExplanationInput" />
+        <Button Content="Add"
+                Click="ButtonAdd_Click" />
+        <Label Content="Search" />
+        <TextBox x:Name="SearchInput" />
+        <Button Content="Search"
+                Click="ButtonSearch_Click" />
+    </StackPanel>
+</Window>
